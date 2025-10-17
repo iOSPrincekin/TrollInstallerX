@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31083CCE2BBAE668006286CE /* vnode.m in Sources */ = {isa = PBXBuildFile; fileRef = 31083CCD2BBAE668006286CE /* vnode.m */; };
 		3166612D2BAD8465009D22D8 /* TrollInstallerXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166612C2BAD8465009D22D8 /* TrollInstallerXApp.swift */; };
 		316661312BAD8466009D22D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316661302BAD8466009D22D8 /* Assets.xcassets */; };
 		316661342BAD8466009D22D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316661332BAD8466009D22D8 /* Preview Assets.xcassets */; };
@@ -17,19 +16,7 @@
 		316661442BAD889C009D22D8 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316661432BAD889C009D22D8 /* Version.swift */; };
 		316661542BAD8BB8009D22D8 /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166614D2BAD8BB8009D22D8 /* helpers.m */; };
 		316661552BAD8BB8009D22D8 /* kernel_find.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166614E2BAD8BB8009D22D8 /* kernel_find.m */; };
-		316661562BAD8BB8009D22D8 /* grant_full_disk_access.m in Sources */ = {isa = PBXBuildFile; fileRef = 316661502BAD8BB8009D22D8 /* grant_full_disk_access.m */; };
 		316661572BAD8BB8009D22D8 /* vm_unaligned_copy_switch_race.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661532BAD8BB8009D22D8 /* vm_unaligned_copy_switch_race.c */; };
-		3166616D2BAD916A009D22D8 /* dmaFail.c in Sources */ = {isa = PBXBuildFile; fileRef = 3166616C2BAD916A009D22D8 /* dmaFail.c */; };
-		316661942BAD918E009D22D8 /* physrw_pte.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661862BAD918E009D22D8 /* physrw_pte.c */; };
-		316661952BAD918E009D22D8 /* kernel.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661872BAD918E009D22D8 /* kernel.c */; };
-		316661962BAD918E009D22D8 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661882BAD918E009D22D8 /* util.c */; };
-		316661972BAD918E009D22D8 /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = 316661892BAD918E009D22D8 /* util.m */; };
-		316661992BAD918E009D22D8 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 3166618B2BAD918E009D22D8 /* info.c */; };
-		3166619A2BAD918E009D22D8 /* primitives_IOSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166618C2BAD918E009D22D8 /* primitives_IOSurface.m */; };
-		3166619B2BAD918E009D22D8 /* primitives.c in Sources */ = {isa = PBXBuildFile; fileRef = 3166618D2BAD918E009D22D8 /* primitives.c */; };
-		3166619D2BAD918E009D22D8 /* kalloc_pt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166618F2BAD918E009D22D8 /* kalloc_pt.m */; };
-		3166619E2BAD918E009D22D8 /* physrw.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661902BAD918E009D22D8 /* physrw.c */; };
-		316661A02BAD918E009D22D8 /* translation.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661922BAD918E009D22D8 /* translation.c */; };
 		316661B32BAD91ED009D22D8 /* libchoma.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 316661B22BAD91ED009D22D8 /* libchoma.a */; };
 		316661D42BAD9221009D22D8 /* libxpf.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 316661D02BAD9221009D22D8 /* libxpf.dylib */; };
 		316661D72BAD93AB009D22D8 /* libarchive.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 316661D62BAD939E009D22D8 /* libarchive.tbd */; };
@@ -43,7 +30,6 @@
 		319CE29D2BB31ED400189EDE /* UnsandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319CE29C2BB31ED400189EDE /* UnsandboxView.swift */; };
 		319CE29F2BB31F7300189EDE /* TrollHelperOTAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319CE29E2BB31F7300189EDE /* TrollHelperOTAView.swift */; };
 		31A6FFF52BB9EA30008F69F8 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A6FFF42BB9EA30008F69F8 /* Defaults.swift */; };
-		31ABE97D2BAD953F003C35E0 /* escalate.c in Sources */ = {isa = PBXBuildFile; fileRef = 31ABE97C2BAD953F003C35E0 /* escalate.c */; };
 		31ABE9812BAD9821003C35E0 /* libxpf.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 316661D02BAD9221009D22D8 /* libxpf.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		31ABE9832BAD997C003C35E0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ABE9822BAD997C003C35E0 /* MainView.swift */; };
 		31BA7FF62BAF0CB00061DC7A /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA7FF52BAF0CB00061DC7A /* PopupView.swift */; };
@@ -51,16 +37,30 @@
 		31F859CA2BADEC6E00A74022 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F859C92BADEC6E00A74022 /* LogView.swift */; };
 		31F859CC2BADEC8E00A74022 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F859CB2BADEC8E00A74022 /* Logger.swift */; };
 		31F859CE2BADFA0600A74022 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F859CD2BADFA0600A74022 /* MenuView.swift */; };
-		31F859EA2BAE008200A74022 /* kfd.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F859E92BAE008200A74022 /* kfd.m */; };
 		31F859EC2BAE00A000A74022 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F859EB2BAE00A000A74022 /* IOKit.framework */; };
 		31F859EE2BAE022C00A74022 /* Installation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F859ED2BAE022C00A74022 /* Installation.swift */; };
 		31F859F12BAE035E00A74022 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F859F02BAE035900A74022 /* libz.tbd */; };
-		31F859F42BAE037600A74022 /* patchfind.c in Sources */ = {isa = PBXBuildFile; fileRef = 31F859F32BAE037600A74022 /* patchfind.c */; };
 		31F859FB2BAE108000A74022 /* remount.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F859FA2BAE108000A74022 /* remount.m */; };
 		31F859FE2BAE119200A74022 /* Extract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F859FD2BAE119200A74022 /* Extract.swift */; };
 		31F85A002BAE123B00A74022 /* install.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F859FF2BAE123B00A74022 /* install.m */; };
 		31F85A022BAE126800A74022 /* run.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F85A012BAE126800A74022 /* run.m */; };
 		511A788B2BBE0A8700D262F9 /* libpartial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A788A2BBE0A8700D262F9 /* libpartial.a */; };
+		9BF183192EA259CB00763CE2 /* patchfind.c in Sources */ = {isa = PBXBuildFile; fileRef = 31F859F32BAE037600A74022 /* patchfind.c */; };
+		9BF1831A2EA25A8800763CE2 /* dmaFail.c in Sources */ = {isa = PBXBuildFile; fileRef = 3166616C2BAD916A009D22D8 /* dmaFail.c */; };
+		9BF1831B2EA25AC400763CE2 /* escalate.c in Sources */ = {isa = PBXBuildFile; fileRef = 31ABE97C2BAD953F003C35E0 /* escalate.c */; };
+		9BF183272EA25B0F00763CE2 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 3166618B2BAD918E009D22D8 /* info.c */; };
+		9BF183282EA25B0F00763CE2 /* kernel.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661872BAD918E009D22D8 /* kernel.c */; };
+		9BF183292EA25B0F00763CE2 /* physrw_pte.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661862BAD918E009D22D8 /* physrw_pte.c */; };
+		9BF1832A2EA25B0F00763CE2 /* kalloc_pt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166618F2BAD918E009D22D8 /* kalloc_pt.m */; };
+		9BF1832B2EA25B0F00763CE2 /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = 316661892BAD918E009D22D8 /* util.m */; };
+		9BF1832C2EA25B0F00763CE2 /* translation.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661922BAD918E009D22D8 /* translation.c */; };
+		9BF1832D2EA25B0F00763CE2 /* primitives.c in Sources */ = {isa = PBXBuildFile; fileRef = 3166618D2BAD918E009D22D8 /* primitives.c */; };
+		9BF1832E2EA25B0F00763CE2 /* vnode.m in Sources */ = {isa = PBXBuildFile; fileRef = 31083CCD2BBAE668006286CE /* vnode.m */; };
+		9BF1832F2EA25B0F00763CE2 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661882BAD918E009D22D8 /* util.c */; };
+		9BF183302EA25B0F00763CE2 /* primitives_IOSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166618C2BAD918E009D22D8 /* primitives_IOSurface.m */; };
+		9BF183312EA25B0F00763CE2 /* physrw.c in Sources */ = {isa = PBXBuildFile; fileRef = 316661902BAD918E009D22D8 /* physrw.c */; };
+		9BF183322EA25B5900763CE2 /* kfd.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F859E92BAE008200A74022 /* kfd.m */; };
+		9BF183332EA25B8700763CE2 /* grant_full_disk_access.m in Sources */ = {isa = PBXBuildFile; fileRef = 316661502BAD8BB8009D22D8 /* grant_full_disk_access.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -210,6 +210,7 @@
 		31F859FF2BAE123B00A74022 /* install.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = install.m; sourceTree = "<group>"; };
 		31F85A012BAE126800A74022 /* run.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = run.m; sourceTree = "<group>"; };
 		31F85A032BAE127600A74022 /* run.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = run.h; sourceTree = "<group>"; };
+		31F85A042BAE126900A74022 /* stubs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stubs.m; sourceTree = "<group>"; };
 		31F85A042BAE12DA00A74022 /* install.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = install.h; sourceTree = "<group>"; };
 		31FED0BF2C92E02800CC33E4 /* libgrabkernel2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libgrabkernel2.h; sourceTree = "<group>"; };
 		511A788A2BBE0A8700D262F9 /* libpartial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpartial.a; sourceTree = "<group>"; };
@@ -263,6 +264,7 @@
 				3166613B2BAD8492009D22D8 /* Extensions */,
 				3166613A2BAD848F009D22D8 /* UI */,
 				3166612C2BAD8465009D22D8 /* TrollInstallerXApp.swift */,
+				31F85A042BAE126900A74022 /* stubs.m */,
 				316661302BAD8466009D22D8 /* Assets.xcassets */,
 				316661322BAD8466009D22D8 /* Preview Content */,
 			);
@@ -696,49 +698,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31083CCE2BBAE668006286CE /* vnode.m in Sources */,
-				31F859EA2BAE008200A74022 /* kfd.m in Sources */,
 				31A6FFF52BB9EA30008F69F8 /* Defaults.swift in Sources */,
+				9BF183192EA259CB00763CE2 /* patchfind.c in Sources */,
 				31F859CC2BADEC8E00A74022 /* Logger.swift in Sources */,
+				9BF1832A2EA25B0F00763CE2 /* kalloc_pt.m in Sources */,
+				9BF183292EA25B0F00763CE2 /* physrw_pte.c in Sources */,
 				31F85A002BAE123B00A74022 /* install.m in Sources */,
+				9BF1832E2EA25B0F00763CE2 /* vnode.m in Sources */,
+				9BF183272EA25B0F00763CE2 /* info.c in Sources */,
 				31ABE9832BAD997C003C35E0 /* MainView.swift in Sources */,
+				9BF183332EA25B8700763CE2 /* grant_full_disk_access.m in Sources */,
 				319CE29B2BB31ABB00189EDE /* SettingsView.swift in Sources */,
 				3166613D2BAD849C009D22D8 /* Color++.swift in Sources */,
-				316661972BAD918E009D22D8 /* util.m in Sources */,
-				316661962BAD918E009D22D8 /* util.c in Sources */,
-				31ABE97D2BAD953F003C35E0 /* escalate.c in Sources */,
 				319CE29D2BB31ED400189EDE /* UnsandboxView.swift in Sources */,
 				319C8F7D2BB89CC900E19B34 /* Update.swift in Sources */,
 				3199C2262BB78AED00A196E9 /* InstalledApp.swift in Sources */,
 				31F85A022BAE126800A74022 /* run.m in Sources */,
+				9BF183322EA25B5900763CE2 /* kfd.m in Sources */,
 				319CE2992BB31A8500189EDE /* CreditsView.swift in Sources */,
-				3166619D2BAD918E009D22D8 /* kalloc_pt.m in Sources */,
+				9BF1832B2EA25B0F00763CE2 /* util.m in Sources */,
 				316661572BAD8BB8009D22D8 /* vm_unaligned_copy_switch_race.c in Sources */,
-				316661562BAD8BB8009D22D8 /* grant_full_disk_access.m in Sources */,
+				9BF1831A2EA25A8800763CE2 /* dmaFail.c in Sources */,
 				319C8F8E2BB8BAD200E19B34 /* PersistenceHelperView.swift in Sources */,
+				9BF1832D2EA25B0F00763CE2 /* primitives.c in Sources */,
+				9BF183302EA25B0F00763CE2 /* primitives_IOSurface.m in Sources */,
 				31F859FB2BAE108000A74022 /* remount.m in Sources */,
 				31F859CA2BADEC6E00A74022 /* LogView.swift in Sources */,
-				3166619B2BAD918E009D22D8 /* primitives.c in Sources */,
-				3166619E2BAD918E009D22D8 /* physrw.c in Sources */,
-				3166619A2BAD918E009D22D8 /* primitives_IOSurface.m in Sources */,
-				316661942BAD918E009D22D8 /* physrw_pte.c in Sources */,
 				316661422BAD86AE009D22D8 /* Exploit.swift in Sources */,
 				316661552BAD8BB8009D22D8 /* kernel_find.m in Sources */,
 				3166612D2BAD8465009D22D8 /* TrollInstallerXApp.swift in Sources */,
+				9BF1832F2EA25B0F00763CE2 /* util.c in Sources */,
 				31F859FE2BAE119200A74022 /* Extract.swift in Sources */,
-				316661952BAD918E009D22D8 /* kernel.c in Sources */,
-				31F859F42BAE037600A74022 /* patchfind.c in Sources */,
-				3166616D2BAD916A009D22D8 /* dmaFail.c in Sources */,
-				316661A02BAD918E009D22D8 /* translation.c in Sources */,
 				31F859CE2BADFA0600A74022 /* MenuView.swift in Sources */,
 				31F859EE2BAE022C00A74022 /* Installation.swift in Sources */,
+				9BF183312EA25B0F00763CE2 /* physrw.c in Sources */,
 				31BA7FF62BAF0CB00061DC7A /* PopupView.swift in Sources */,
-				316661992BAD918E009D22D8 /* info.c in Sources */,
 				316661442BAD889C009D22D8 /* Version.swift in Sources */,
+				9BF1832C2EA25B0F00763CE2 /* translation.c in Sources */,
+				9BF183282EA25B0F00763CE2 /* kernel.c in Sources */,
 				316661402BAD862C009D22D8 /* Device.swift in Sources */,
 				319CE29F2BB31F7300189EDE /* TrollHelperOTAView.swift in Sources */,
 				319C8F852BB8A50600E19B34 /* update.m in Sources */,
 				316661542BAD8BB8009D22D8 /* helpers.m in Sources */,
+				9BF1831B2EA25AC400763CE2 /* escalate.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,12 +875,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrollInstallerX/Preview Content\"";
-				DEVELOPMENT_TEAM = 76V43E9CWT;
+				DEVELOPMENT_TEAM = R3F7G5M76J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					TrollInstallerX/External/include,
 					TrollInstallerX/Exploitation/,
+					"/Users/lee/Desktop/TONGDUN/demo/company/Dopamine2-roothide/BaseBin/_external/include/",
 				);
 				INFOPLIST_KEY_CFBundleDisplayName = TrollInstallerX;
 				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Unsandboxing with MacDirtyCow";
@@ -917,12 +920,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrollInstallerX/Preview Content\"";
-				DEVELOPMENT_TEAM = 76V43E9CWT;
+				DEVELOPMENT_TEAM = R3F7G5M76J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					TrollInstallerX/External/include,
 					TrollInstallerX/Exploitation/,
+					"/Users/lee/Desktop/TONGDUN/demo/company/Dopamine2-roothide/BaseBin/_external/include/",
 				);
 				INFOPLIST_KEY_CFBundleDisplayName = TrollInstallerX;
 				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Unsandboxing with MacDirtyCow";

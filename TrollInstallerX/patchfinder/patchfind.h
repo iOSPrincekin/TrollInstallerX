@@ -9,7 +9,7 @@
 #define patchfind_h
 
 #include <stdio.h>
-#include <xpf/xpf.h>
+#include "xpf.h"
 
 bool initialise_kernel_info(const char *kernelPath, bool iOS14);
 

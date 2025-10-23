@@ -6,7 +6,7 @@
 //
 
 #include <stdio.h>
-#include <xpf/xpf.h>
+#include "xpf.h"
 #include <libjailbreak/info.h>
 #include <libjailbreak/translation.h>
 #include <libjailbreak/primitives_IOSurface.h>

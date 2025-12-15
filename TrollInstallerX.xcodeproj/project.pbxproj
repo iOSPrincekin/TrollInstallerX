@@ -30,7 +30,6 @@
 		31A6FFF52BB9EA30008F69F8 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A6FFF42BB9EA30008F69F8 /* Defaults.swift */; };
 		31ABE9832BAD997C003C35E0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ABE9822BAD997C003C35E0 /* MainView.swift */; };
 		31BA7FF62BAF0CB00061DC7A /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA7FF52BAF0CB00061DC7A /* PopupView.swift */; };
-		31D334332C9367A9003050AB /* libgrabkernel2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D334322C9367A9003050AB /* libgrabkernel2.a */; };
 		31F859CA2BADEC6E00A74022 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F859C92BADEC6E00A74022 /* LogView.swift */; };
 		31F859CC2BADEC8E00A74022 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F859CB2BADEC8E00A74022 /* Logger.swift */; };
 		31F859CE2BADFA0600A74022 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F859CD2BADFA0600A74022 /* MenuView.swift */; };
@@ -41,7 +40,10 @@
 		31F859FE2BAE119200A74022 /* Extract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F859FD2BAE119200A74022 /* Extract.swift */; };
 		31F85A002BAE123B00A74022 /* install.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F859FF2BAE123B00A74022 /* install.m */; };
 		31F85A022BAE126800A74022 /* run.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F85A012BAE126800A74022 /* run.m */; };
-		511A788B2BBE0A8700D262F9 /* libpartial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A788A2BBE0A8700D262F9 /* libpartial.a */; };
+		9B0EC0352EEFD5C9003122F5 /* appledb.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0EC02F2EEFD5C9003122F5 /* appledb.m */; };
+		9B0EC0362EEFD5C9003122F5 /* grabkernel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0EC0312EEFD5C9003122F5 /* grabkernel.m */; };
+		9B0EC0372EEFD5C9003122F5 /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0EC0322EEFD5C9003122F5 /* utils.m */; };
+		9B0EC03C2EEFD613003122F5 /* partial.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0EC03B2EEFD613003122F5 /* partial.m */; };
 		9B0FB4A12EA9F442002B4573 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B0FB44C2EA9F442002B4573 /* common.c */; };
 		9B0FB4A22EA9F442002B4573 /* bad_recovery.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B0FB44D2EA9F442002B4573 /* bad_recovery.c */; };
 		9B0FB4A32EA9F442002B4573 /* non_ppl.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B0FB44E2EA9F442002B4573 /* non_ppl.c */; };
@@ -202,6 +204,15 @@
 		31F85A042BAE12DA00A74022 /* install.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = install.h; sourceTree = "<group>"; };
 		31FED0BF2C92E02800CC33E4 /* libgrabkernel2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libgrabkernel2.h; sourceTree = "<group>"; };
 		511A788A2BBE0A8700D262F9 /* libpartial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpartial.a; sourceTree = "<group>"; };
+		9B0EC02F2EEFD5C9003122F5 /* appledb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appledb.m; sourceTree = "<group>"; };
+		9B0EC0302EEFD5C9003122F5 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		9B0EC0312EEFD5C9003122F5 /* grabkernel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = grabkernel.m; sourceTree = "<group>"; };
+		9B0EC0322EEFD5C9003122F5 /* utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = utils.m; sourceTree = "<group>"; };
+		9B0EC0332EEFD5C9003122F5 /* appledb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appledb.h; sourceTree = "<group>"; };
+		9B0EC0342EEFD5C9003122F5 /* grabkernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grabkernel.h; sourceTree = "<group>"; };
+		9B0EC0392EEFD613003122F5 /* partial_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partial_private.h; sourceTree = "<group>"; };
+		9B0EC03A2EEFD613003122F5 /* partial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partial.h; sourceTree = "<group>"; };
+		9B0EC03B2EEFD613003122F5 /* partial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = partial.m; sourceTree = "<group>"; };
 		9B0FB44C2EA9F442002B4573 /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = common.c; sourceTree = "<group>"; };
 		9B0FB44D2EA9F442002B4573 /* bad_recovery.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bad_recovery.c; sourceTree = "<group>"; };
 		9B0FB44E2EA9F442002B4573 /* non_ppl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = non_ppl.c; sourceTree = "<group>"; };
@@ -262,10 +273,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				511A788B2BBE0A8700D262F9 /* libpartial.a in Frameworks */,
 				31F859F12BAE035E00A74022 /* libz.tbd in Frameworks */,
 				316661D72BAD93AB009D22D8 /* libarchive.tbd in Frameworks */,
-				31D334332C9367A9003050AB /* libgrabkernel2.a in Frameworks */,
 				31F859EC2BAE00A000A74022 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +307,8 @@
 				3166613B2BAD8492009D22D8 /* Extensions */,
 				316661582BAD8BDF009D22D8 /* External */,
 				31ABE9782BAD9514003C35E0 /* Installer */,
+				9B0EC02E2EEFD5C9003122F5 /* libgrabkernel2 */,
+				9B0EC0382EEFD613003122F5 /* libpartial */,
 				3166613E2BAD8623009D22D8 /* Models */,
 				31F859EF2BAE02DE00A74022 /* Patchfinder */,
 				316661322BAD8466009D22D8 /* Preview Content */,
@@ -629,6 +640,29 @@
 			path = libgrabkernel2;
 			sourceTree = "<group>";
 		};
+		9B0EC02E2EEFD5C9003122F5 /* libgrabkernel2 */ = {
+			isa = PBXGroup;
+			children = (
+				9B0EC0332EEFD5C9003122F5 /* appledb.h */,
+				9B0EC02F2EEFD5C9003122F5 /* appledb.m */,
+				9B0EC0342EEFD5C9003122F5 /* grabkernel.h */,
+				9B0EC0312EEFD5C9003122F5 /* grabkernel.m */,
+				9B0EC0302EEFD5C9003122F5 /* utils.h */,
+				9B0EC0322EEFD5C9003122F5 /* utils.m */,
+			);
+			path = libgrabkernel2;
+			sourceTree = "<group>";
+		};
+		9B0EC0382EEFD613003122F5 /* libpartial */ = {
+			isa = PBXGroup;
+			children = (
+				9B0EC0392EEFD613003122F5 /* partial_private.h */,
+				9B0EC03A2EEFD613003122F5 /* partial.h */,
+				9B0EC03B2EEFD613003122F5 /* partial.m */,
+			);
+			path = libpartial;
+			sourceTree = "<group>";
+		};
 		9B0FB3CA2EA9F441002B4573 /* XPF */ = {
 			isa = PBXGroup;
 			children = (
@@ -802,6 +836,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0EC0362EEFD5C9003122F5 /* grabkernel.m in Sources */,
 				9B0FB4A32EA9F442002B4573 /* non_ppl.c in Sources */,
 				31A6FFF52BB9EA30008F69F8 /* Defaults.swift in Sources */,
 				9B0FB5502EA9F4F8002B4573 /* CSBlob.c in Sources */,
@@ -843,6 +878,7 @@
 				9B0FB55A2EA9F4F8002B4573 /* MemoryStream.c in Sources */,
 				31F859CA2BADEC6E00A74022 /* LogView.swift in Sources */,
 				316661422BAD86AE009D22D8 /* Exploit.swift in Sources */,
+				9B0EC0352EEFD5C9003122F5 /* appledb.m in Sources */,
 				9B0FB55C2EA9F4F8002B4573 /* Base64.c in Sources */,
 				9B0FB5572EA9F4F8002B4573 /* Fat.c in Sources */,
 				316661552BAD8BB8009D22D8 /* kernel_find.m in Sources */,
@@ -866,8 +902,10 @@
 				9B0FB4A12EA9F442002B4573 /* common.c in Sources */,
 				319CE29F2BB31F7300189EDE /* TrollHelperOTAView.swift in Sources */,
 				319C8F852BB8A50600E19B34 /* update.m in Sources */,
+				9B0EC0372EEFD5C9003122F5 /* utils.m in Sources */,
 				316661542BAD8BB8009D22D8 /* helpers.m in Sources */,
 				9BF1831B2EA25AC400763CE2 /* escalate.c in Sources */,
+				9B0EC03C2EEFD613003122F5 /* partial.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

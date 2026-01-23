@@ -333,15 +333,15 @@
 		3166613A2BAD848F009D22D8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				319CE2982BB31A8500189EDE /* CreditsView.swift */,
+				31F859C92BADEC6E00A74022 /* LogView.swift */,
 				31ABE9822BAD997C003C35E0 /* MainView.swift */,
+				31F859CD2BADFA0600A74022 /* MenuView.swift */,
+				319C8F8D2BB8BAD200E19B34 /* PersistenceHelperView.swift */,
+				31BA7FF52BAF0CB00061DC7A /* PopupView.swift */,
 				319CE29A2BB31ABB00189EDE /* SettingsView.swift */,
 				319CE29E2BB31F7300189EDE /* TrollHelperOTAView.swift */,
-				319C8F8D2BB8BAD200E19B34 /* PersistenceHelperView.swift */,
 				319CE29C2BB31ED400189EDE /* UnsandboxView.swift */,
-				319CE2982BB31A8500189EDE /* CreditsView.swift */,
-				31F859CD2BADFA0600A74022 /* MenuView.swift */,
-				31BA7FF52BAF0CB00061DC7A /* PopupView.swift */,
-				31F859C92BADEC6E00A74022 /* LogView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -357,12 +357,12 @@
 		3166613E2BAD8623009D22D8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3166613F2BAD862C009D22D8 /* Device.swift */,
-				3199C2252BB78AED00A196E9 /* InstalledApp.swift */,
-				316661432BAD889C009D22D8 /* Version.swift */,
 				31A6FFF42BB9EA30008F69F8 /* Defaults.swift */,
+				3166613F2BAD862C009D22D8 /* Device.swift */,
 				316661412BAD86AE009D22D8 /* Exploit.swift */,
+				3199C2252BB78AED00A196E9 /* InstalledApp.swift */,
 				31F859CB2BADEC8E00A74022 /* Logger.swift */,
+				316661432BAD889C009D22D8 /* Version.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -437,31 +437,31 @@
 			isa = PBXGroup;
 			children = (
 				316661712BAD918E009D22D8 /* codesign.h */,
-				316661722BAD918E009D22D8 /* physrw.h */,
-				316661732BAD918E009D22D8 /* pte.h */,
-				316661742BAD918E009D22D8 /* machine_info.h */,
-				316661752BAD918E009D22D8 /* primitives_external.h */,
-				316661762BAD918E009D22D8 /* translation.h */,
-				316661782BAD918E009D22D8 /* physrw_pte.h */,
-				3166617B2BAD918E009D22D8 /* pvh.h */,
-				3166617D2BAD918E009D22D8 /* util.h */,
-				3166617E2BAD918E009D22D8 /* kernel.h */,
-				316661802BAD918E009D22D8 /* primitives_IOSurface.h */,
-				316661812BAD918E009D22D8 /* primitives.h */,
+				3166618B2BAD918E009D22D8 /* info.c */,
 				316661822BAD918E009D22D8 /* info.h */,
 				316661832BAD918E009D22D8 /* kalloc_pt.h */,
-				316661862BAD918E009D22D8 /* physrw_pte.c */,
+				3166618F2BAD918E009D22D8 /* kalloc_pt.m */,
 				316661872BAD918E009D22D8 /* kernel.c */,
-				316661882BAD918E009D22D8 /* util.c */,
-				316661892BAD918E009D22D8 /* util.m */,
-				3166618B2BAD918E009D22D8 /* info.c */,
+				3166617E2BAD918E009D22D8 /* kernel.h */,
+				316661742BAD918E009D22D8 /* machine_info.h */,
+				316661862BAD918E009D22D8 /* physrw_pte.c */,
+				316661782BAD918E009D22D8 /* physrw_pte.h */,
+				316661902BAD918E009D22D8 /* physrw.c */,
+				316661722BAD918E009D22D8 /* physrw.h */,
+				316661752BAD918E009D22D8 /* primitives_external.h */,
+				316661802BAD918E009D22D8 /* primitives_IOSurface.h */,
 				3166618C2BAD918E009D22D8 /* primitives_IOSurface.m */,
 				3166618D2BAD918E009D22D8 /* primitives.c */,
-				3166618F2BAD918E009D22D8 /* kalloc_pt.m */,
-				316661902BAD918E009D22D8 /* physrw.c */,
+				316661812BAD918E009D22D8 /* primitives.h */,
+				316661732BAD918E009D22D8 /* pte.h */,
+				3166617B2BAD918E009D22D8 /* pvh.h */,
 				316661922BAD918E009D22D8 /* translation.c */,
-				31083CCD2BBAE668006286CE /* vnode.m */,
+				316661762BAD918E009D22D8 /* translation.h */,
+				316661882BAD918E009D22D8 /* util.c */,
+				3166617D2BAD918E009D22D8 /* util.h */,
+				316661892BAD918E009D22D8 /* util.m */,
 				31083CCF2BBAE670006286CE /* vnode.h */,
+				31083CCD2BBAE668006286CE /* vnode.m */,
 			);
 			path = libjailbreak;
 			sourceTree = "<group>";
@@ -525,19 +525,19 @@
 		31ABE9782BAD9514003C35E0 /* Installer */ = {
 			isa = PBXGroup;
 			children = (
-				31ABE97B2BAD953F003C35E0 /* escalate.h */,
 				31ABE97C2BAD953F003C35E0 /* escalate.c */,
-				31F859ED2BAE022C00A74022 /* Installation.swift */,
+				31ABE97B2BAD953F003C35E0 /* escalate.h */,
 				31F859FD2BAE119200A74022 /* Extract.swift */,
-				319C8F7C2BB89CC900E19B34 /* Update.swift */,
-				319C8F842BB8A50600E19B34 /* update.m */,
-				319C8F862BB8A51100E19B34 /* update.h */,
-				31F859FA2BAE108000A74022 /* remount.m */,
-				31F859FC2BAE109F00A74022 /* remount.h */,
-				31F859FF2BAE123B00A74022 /* install.m */,
 				31F85A042BAE12DA00A74022 /* install.h */,
-				31F85A012BAE126800A74022 /* run.m */,
+				31F859FF2BAE123B00A74022 /* install.m */,
+				31F859ED2BAE022C00A74022 /* Installation.swift */,
+				31F859FC2BAE109F00A74022 /* remount.h */,
+				31F859FA2BAE108000A74022 /* remount.m */,
 				31F85A032BAE127600A74022 /* run.h */,
+				31F85A012BAE126800A74022 /* run.m */,
+				319C8F862BB8A51100E19B34 /* update.h */,
+				319C8F842BB8A50600E19B34 /* update.m */,
+				319C8F7C2BB89CC900E19B34 /* Update.swift */,
 			);
 			path = Installer;
 			sourceTree = "<group>";
